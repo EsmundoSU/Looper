@@ -1,8 +1,13 @@
 echo Run test
-set loopLimit=100000000
-.\bin\looper_O0.exe %loopLimit%
-.\bin\looper_O1.exe %loopLimit%
-.\bin\looper_O2.exe %loopLimit%
-.\bin\looper_O3.exe %loopLimit%
-.\bin\looper_Os.exe %loopLimit%
-.\bin\looper_Ofast.exe %loopLimit%
+.\bin\looper_1_O0.exe 
+.\bin\looper_2_O0.exe 
+.\bin\looper_1_O1.exe 
+.\bin\looper_2_O1.exe 
+.\bin\looper_1_O2.exe 
+.\bin\looper_2_O2.exe 
+.\bin\looper_1_O3.exe 
+.\bin\looper_2_O3.exe 
+.\bin\looper_1_Os.exe 
+.\bin\looper_2_Os.exe 
+.\bin\looper_1_Ofast.exe 
+.\bin\looper_2_Ofast.exe 
